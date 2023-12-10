@@ -1,0 +1,72 @@
+body h1 {
+    text-transform: capitalize;
+}
+ 
+body h2 {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+main h2 {
+    text-align: center;
+}
+
+.container {
+    background-color: #fff;
+    padding: 25px;
+    width: 400px;
+    border-radius: 10px;
+    border-style: solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+}
+
+li button {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.container h1 {
+    text-decoration: underline;
+    font-style: italic;
+
+}
+
+.container input {
+    width: 200px;
+    height: 0.001px;
+    font-size: 25px;
+    padding: 20px;
+    border: 3px solid green;
+  }
+
+.button {
+    width: 100px;
+    height: 40px;
+    border: 3px solid green;
+   
+} 
+
+nav a:hover{
+    color: red;
+
+}
